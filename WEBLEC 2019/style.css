@@ -4,13 +4,6 @@ body{
     
 }
 
-section{
-    padding: 0 100px;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-}
-
 /*PICTURE*/
 
 #picture img{
@@ -243,18 +236,4 @@ input.form-control {
 	}
 }
 
-.title{
-    position: absolute;
-    top: 50%;
-    left: 36%
-}
 
-.title h1{
-    color: #000;
-    font-size: 70px;
-}
-
-.push{
-    top: 50%
-    right: 20%;
-}
