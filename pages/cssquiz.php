@@ -24,37 +24,46 @@
         </div>
         
         <div>
+            <form action="checkanswer_css.php" method="POST" target="_blank">
             <?php
             /*
             Code by: Florendo,Edson M.
+            Description:
             Collects the questions in the database and then presents it.
             Randomizing questions is done by shuffling the array.
             
             */
+            include("questions.php");
                 $db = new mysqli("p:localhost", "root", "", "quiz");
-                $query = "Select question
+                $query = "Select idcss_quiz, question, answer
                           FROM css_quiz";
                 $stmt = $db->stmt_init();
                 $stmt->prepare($query);
                 $stmt->execute();
-                $stmt->bind_result($question);
+                $stmt->bind_result($a,$b,$c);
                 $counter = 1;
                 $x = 0;
                 while($stmt->fetch()){
-                    $questions[] = $question;
+                    $question = new questions($a,$b,$c);
+                    $d[] = $question;
                 }
-                shuffle($questions);
-                while($x < count($questions) ){
-                echo "<p>". $counter .". " . $questions[$x] . "</p>";
-                echo "<p> Answer:<input type=\"text\" name=\"ans1\"></p>";
-                echo "<br>";
-                $counter = $counter + 1;
-                $x = $x + 1;
+                shuffle($d);
+                while($x < count($d) ){
+                    $e = $d[$x];
+                    $f = $e->get_question();
+                    $g = $e->get_Id();
+                    echo "<p>". $counter .". " . $f . "</p>";
+                    echo "<p> Answer:<input type=\"text\" name=". $g ."></p>";
+                    echo "<br>";
+                    $counter = $counter + 1;
+                    $x = $x + 1;
                 }
             
                 $stmt->close();
                 
             ?>
+            <p><input type="submit" value="check answer"></p>
+            </form>
         </div>
          <footer class="footer-site">
 			<div class="footer-left">
