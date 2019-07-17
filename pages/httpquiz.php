@@ -33,7 +33,7 @@
             */
                 $db = new mysqli("p:localhost", "root", "", "quiz");
                 $query = "Select question
-                          FROM css_quiz";
+                          FROM http_quiz";
                 $stmt = $db->stmt_init();
                 $stmt->prepare($query);
                 $stmt->execute();
