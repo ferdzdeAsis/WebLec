@@ -32,13 +32,21 @@
                 $stmt->prepare($query);
                 $stmt->execute();
                 $stmt->bind_result($question);
-                $stmt->fetch();
                 $counter = 1;
+                $x = 0;
                 while($stmt->fetch()){
-                echo "<p>". $counter ."." . $question . "</p>";
-                echo "<p> Answer:<input type=\"text\" name=\"ans1\"></p>";
-                $counter = $counter + 1;
+                    $questions[] = $question;
                 }
+                shuffle($questions);
+                while($x < count($questions) ){
+                echo "<p>". $counter .". " . $questions[$x] . "</p>";
+                echo "<p> Answer:<input type=\"text\" name=\"ans1\"></p>";
+                echo "<br>";
+                $counter = $counter + 1;
+                $x = $x + 1;
+                }
+            
+                $stmt->close();
                 
             ?>
         </div>
