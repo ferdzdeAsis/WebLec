@@ -9,18 +9,18 @@
     </head>
     <body>
         <div class="navbar">
-            <a href="../index.html">Home</a>
+            <a href="../index.php">Home</a>
             <div class="dropdown">
                 <button class="dropbtn">Topics</button>
                 <div class="dropdown-content">
-					<a href="http.html">HTTP</a>
-					<a href="html.html">HTML</a>
-					<a href="css.html">CSS</a>
+					<a href="http.php">HTTP</a>
+					<a href="html.php">HTML</a>
+					<a href="css.php">CSS</a>
                 </div>
             </div> 
-            <a href="about.html">About Us</a>
-            <a href="references.html">References</a>
-            <a href="quiz.html">Take the quiz</a>
+            <a href="about.php">About Us</a>
+            <a href="references.php">References</a>
+            <a href="quiz.php">Take the quiz</a>
         </div>
         <div>
             <?php
@@ -42,7 +42,7 @@
                 $d[] = $question;
             }
             $counter = 1;
-            while($counter <= 30){
+            while($counter <= 10){
                 $e = $_POST[$counter];
                 $f[] = $e;
                 $counter = $counter + 1;
@@ -70,7 +70,7 @@
                 $g = $g +1;
             }
             
-            echo "<p>Your Score is:". $correct ."/ 30.</p>";
+            echo "<p>Your Score is:". $correct ."/ 10.</p>";
             ?>
         </div>
         <footer class="footer-site">
@@ -78,5 +78,8 @@
 				<p>Web Systems & Technologies &copy; 2019</p>
 			</div>
 		 </footer>
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>

@@ -214,8 +214,8 @@ a:hover {
   display: table;
 }
 img.html{
-    width: 33.33%;
-    height: 50%;
+    width: 47%;
+    height: 70%;
 }
 
 img.css{
@@ -226,4 +226,8 @@ img.css{
 image.http {
     width:33.33%;
     height:50%;
+}
+img.serverside{
+    width: 33.33%;
+    height: 60%;
 }

@@ -9,18 +9,18 @@
     </head>
     <body>
         <div class="navbar">
-            <a href="../index.html">Home</a>
+            <a href="../index.php">Home</a>
             <div class="dropdown">
                 <button class="dropbtn">Topics</button>
                 <div class="dropdown-content">
-					<a href="http.html">HTTP</a>
-					<a href="html.html">HTML</a>
-					<a href="css.html">CSS</a>
+					<a href="http.php">HTTP</a>
+					<a href="html.php">HTML</a>
+					<a href="css.php">CSS</a>
                 </div>
             </div> 
-            <a href="about.html">About Us</a>
-            <a href="references.html">References</a>
-            <a href="quiz.html">Take the quiz</a>
+            <a href="about.php">About Us</a>
+            <a href="references.php">References</a>
+            <a href="quiz.php">Take the quiz</a>
         </div>
         
         <div>
@@ -36,7 +36,7 @@
             include("questions.php");
                 $db = new mysqli("p:localhost", "root", "", "quiz");
                 $query = "Select idcss_quiz, question, answer
-                          FROM css_quiz";
+                          FROM css_quiz limit 10";
                 $stmt = $db->stmt_init();
                 $stmt->prepare($query);
                 $stmt->execute();
