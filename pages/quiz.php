@@ -10,18 +10,19 @@
     
     <body>  
         <div class="navbar">
-            <a href="../index.html">Home</a>
+            <a href="../index.php">Home</a>
             <div class="dropdown">
                 <button class="dropbtn">Topics</button>
                 <div class="dropdown-content">
-					<a href="http.html">HTTP</a>
-					<a href="html.html">HTML</a>
-					<a href="css.html">CSS</a>
+					<a href="http.php">HTTP</a>
+					<a href="html.php">HTML</a>
+					<a href="css.php">CSS</a>
+					<a href="pages/javascript.php">JavaScript</a>
                 </div>
             </div> 
-            <a href="about.html">About Us</a>
-            <a href="references.html">References</a>
-            <a href="quiz.html">Take the quiz</a>
+            <a href="about.php">About Us</a>
+            <a href="references.php">References</a>
+            <a href="quiz.php">Take the quiz</a>
         </div>
         
 	
@@ -33,7 +34,7 @@
                         <br>
                         <div class="row">
                             <div class= "column">
-                                <a href= "htmlquiz.html"><img src="../images/html.png" class="html" alt="html"></a>
+                                <a href= "htmlquiz.php"><img src="../images/html.png" class="html" alt="html"></a>
                             </div>
                             <div class = "column">
                                 <a href= "cssquiz.php"><img src="../images/css.png" class="css" alt="css"></a>
@@ -43,9 +44,6 @@
                             </div>
                             <div class = "row">
                                 <a href = "javascriptquiz.php"><img src = "../images/js.png" class="js" alt="javascript"></a>
-                            </div>
-                            <div class = "row">
-                                <a href = "serverside.php"><img src = "../images/ss.png" class = "serverside" alt = "server-size"></a>
                             </div>
                         </div>
                     </div>

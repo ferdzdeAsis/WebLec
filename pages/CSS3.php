@@ -10,18 +10,19 @@
     
     <body>  
         <div class="navbar">
-            <a href="../index.html">Home</a>
+            <a href="../index.php">Home</a>
             <div class="dropdown">
                 <button class="dropbtn">Topics</button>
                 <div class="dropdown-content">
-					<a href="http.html">HTTP</a>
-					<a href="html.html">HTML</a>
-					<a href="css.html">CSS</a>
+					<a href="http.php">HTTP</a>
+					<a href="html.php">HTML</a>
+					<a href="css.php">CSS</a>
+					<a href="pages/javascript.php">JavaScript</a>
                 </div>
             </div> 
-            <a href="about.html">About Us</a>
-            <a href="references.html">References</a>
-             <a href="quiz.html">Take the quiz</a>           
+            <a href="about.php">About Us</a>
+            <a href="references.php">References</a>
+             <a href="quiz.php">Take the quiz</a>           
         </div>
         
 	
@@ -53,8 +54,8 @@
              
          <div>
             <center>
-            <a href="CSS2.html" class="previous">&laquo; Previous</a>
-			<a href="CSS4.html" class="next">Next &raquo;</a>
+            <a href="CSS2.php" class="previous">&laquo; Previous</a>
+			<a href="CSS4.php" class="next">Next &raquo;</a>
                 </center>
             </div>
         

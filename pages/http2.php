@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -17,6 +17,7 @@
 					<a href="http.php">HTTP</a>
 					<a href="html.php">HTML</a>
 					<a href="css.php">CSS</a>
+					<a href="pages/javascript.php">JavaScript</a>
                 </div>
             </div> 
             <a href="about.php">About Us</a>

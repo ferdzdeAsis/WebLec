@@ -15,6 +15,7 @@
 					<a href="pages/http.php">HTTP</a>
 					<a href="pages/html.php">HTML</a>
 					<a href="pages/css.php">CSS</a>
+					<a href="pages/javascript.php">JavaScript</a>
                 </div>
             </div> 
             <a href="pages/references.php">References</a>

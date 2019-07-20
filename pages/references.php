@@ -17,6 +17,7 @@
 					<a href="http.php">HTTP</a>
 					<a href="html.php">HTML</a>
 					<a href="css.php">CSS</a>
+					<a href="pages/javascript.php">JavaScript</a>
                 </div>
             </div> 
             <a href="about.php">About Us</a>
@@ -34,8 +35,11 @@
 
 					<ul>
                         <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"> https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics</a></li>
-                        <li>https://giphy.com/gifs/good-job-congratulations-otter-ely3apij36BJhoZ234/embed</li>
+                        <li><a href="https://giphy.com/gifs/good-job-congratulations-otter-ely3apij36BJhoZ234/embed">https://giphy.com/gifs/good-job-congratulations-otter-ely3apij36BJhoZ234/embed</a></li>
+                        <li><a href="https://flaviocopes.com/javascript-introduction/">https://flaviocopes.com/javascript-introduction/</a></li>
+                        <li><a href="https://www.w3schools.com/js/js_versions.asp">https://www.w3schools.com/js/js_versions.asp</a></li>
                         </ul>
+                        <li><a href="https://techterms.com/definition/javascript">https://techterms.com/definition/javascript</a></li>
             <br>
             <div>
             <center>

@@ -17,7 +17,7 @@
 					<a href="http.php">HTTP</a>
 					<a href="html.php">HTML</a>
 					<a href="css.php">CSS</a>
-					<a href="pages/javascript.php">JavaScript</a>
+                    			<a href="javascript.php">JavaScript</a>
                 </div>
             </div> 
             <a href="about.php">About Us</a>
@@ -26,38 +26,35 @@
         </div>
         
 	
-    <div class = "center-justified">
+		<div class = "center-justified">
 			<div class="data-container">
-			
-			<div class="dataa-css4">
-					<div id="HTTP" class="data-hhtp3">
-						<h2>Why use CSS?</h2>
-						<ul><br><br><br>
-            <div class="css-data4">
-							<ul>It is easy to work on during maintenance.
-                                Gives web pages a unique look.
-                                Style sheets are saved via .css file.</ul>
-            </div>
-							</ul><br><br><br>
-					   </div>
+				<div class="data-body">
+					<div id="HTML" class="data-html">
+						<h1><center>YOU JUST FINISHED THIS CHAPTER!</center></h1>
+                        <br>
+                        <center>
+                        <iframe src="https://giphy.com/embed/ely3apij36BJhoZ234" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/good-job-congratulations-otter-ely3apij36BJhoZ234"></a></p>
+                        </center>
+                        
                     </div>
                 </div>
             </div>
-             
-        
+            <br>
             <div>
             <center>
-            <a href="CSS3.php" class="previous">&laquo; Previous</a>
-			<a href="CSS5.php" class="next">Next &raquo;</a>
+                <a href="javascript3.php" class="previous">&laquo; Previous</a>
+                <a href="CSS.php" class="next">CSS Notes</a>
+                <a href="html.php" class="next">HTML Notes</a>
+                <a href="http.php" class="next">HTTP Notes</a>
+                <a href="quiz.html" class="next">Take the Quiz! &raquo;</a>
                 </center>
             </div>
-        
-        <footer class="footer-site">
+		</div>
+       <footer class="footer-site">
 			<div class="footer-left">
 				<p>Web Systems & Technologies &copy; 2019</p>
 			</div>
 		 </footer>
-
         <script src="js/bootstrap.min.js"></script>
         <script src="script.js"></script>
     </body>
